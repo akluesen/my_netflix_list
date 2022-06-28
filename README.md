@@ -3,10 +3,12 @@
 Wichtig: 
 Source Code zur jeweiligen Seite der App findest du unter /lib
 
-### Darstellung
+### Darstellung 
 
 Die Ordner /ios/android/web sind für übertragung in die jeweiligen Betriebsysteme da. 
 Im /assets findet man die genutzten Designs der App.
+
+### einzelne Klassen /lib
 
 ### complete_profile
 path: my_netflix_list/lib/complete_profile/complete_profile_widget.dart
@@ -46,14 +48,14 @@ die "Register Page" ist wie "Login Page" aufgebaut nur das man hier noch ein ext
 ### score_details
 path: my_netflix_list/lib/score_details/score_details_widget.dart
 
-sobald man ein Film/Serien bewertet möchte wird man auf die Seite kommen, diese beinhaltet den Ausgewählten Titel sowie einen Schieber zum Auswählen der gesehenen Episoden. Das Bewerten Funktion über ein Sterne System, man kann einfach die gewünschte Sterneanzahl anklicken. Das Datum sowie die Uhrzeit und die eingegeben Bewertung wird gespeichert so bald auf Speichern klickt. 
+sobald man ein Film/Serien bewertet möchte wird man auf die Seite kommen, diese beinhaltet den Ausgewählten Titel sowie einen Schieber zum Auswählen der gesehenen Episoden. Das Bewerten Funktion über ein Sterne System, man kann einfach die gewünschte Sterneanzahl anklicken. Das Datum sowie die Uhrzeit und die eingegeben Bewertung wird gespeichert so bald auf Speichern klickt.
 
 ### serie
 path: my_netflix_list/lib/serie/serie_widget.dart
 
-die Klasse "Serie" war am aufwendigsten. Sie zeigt das Cover desausgeählten Titel sowie Details dazu. Also Release, Episodenanzahl, Handlung, 
+die Klasse "Serie", zeigt das Cover des ausgewählten Titel sowie Details dazu also Release, Episodenanzahl, Handlung sowie FSK. Will man diese dann seiner Liste hinzufügen klickt man auf den Button "Zur Liste Hinzufügen". 
 
 ### main 
 path: my_netflix_list/lib/main.dart
 
-wie die Methode schon verrät, buildet diese das Programm und verknüpft die jeweiligen Klassen. So wie immer!
+wie die Methode schon verrät, buildet und startet diese nur das Programm.
