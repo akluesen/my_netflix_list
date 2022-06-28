@@ -1,6 +1,6 @@
 # my_netflix_list
 
-### Wichtig
+Wichtig: 
 Source Code zur jeweiligen Seite der App findest du unter /lib
 
 ### Darstellung
