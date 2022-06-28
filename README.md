@@ -6,7 +6,7 @@ Source Code zur jeweiligen Seite der App findest du unter /lib
 ### Darstellung
 
 Die Ordner /ios/android/web sind für übertragung in die jeweiligen Betriebsysteme da. 
-#Im /assets findet man die genutzten Designs der App.
+Im /assets findet man die genutzten Designs der App.
 
 ### complete_profile
 path: my_netflix_list/lib/complete_profile/complete_profile_widget.dart
